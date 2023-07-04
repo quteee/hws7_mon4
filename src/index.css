@@ -1,13 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background: url("images/planety-v-kosmose.jpg");
+    width: 100%;
+    height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.hat {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
+    margin-left: 450px;
+    margin-top: 100px;
+
 }
+.form {
+    display: flex;
+    position: relative;
+    width: 180px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+input {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 10px;
+}
+input[type='submit'] {
+    margin-left: 30px;
+    width: 70px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+select {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 10px;
+}
+option {
+    background-color: #9595ea;
+    color: white;
+}
+::placeholder {
+    color: #afacac;
+}
+
